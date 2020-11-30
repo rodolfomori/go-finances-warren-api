@@ -18,11 +18,12 @@ export default async (name = 'default'): Promise<Connection> => {
 
   return createConnection(
     Object.assign(defaultOptions, {
-      name,
+      name: process.env.NODE_ENV === 'test' ? 'test-conection' : defaultOptions.name,
+      host: process.env.NODE_ENV === 'test' ? 'localhost' : defaultOptions.host,
       database:
-        process.env.NODE_ENV === 'test'
-          ? 'warren-bank-test'
+        process.env.NODE_ENV === 'test' ? 'warren-bank-test'
           : defaultOptions.database,
     }),
   );
 };
+
