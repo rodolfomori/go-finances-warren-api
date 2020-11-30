@@ -1,9 +1,10 @@
 {
+  "name": "postgres",
   "type": "postgres",
-  "host": "localhost",
+  "host": "postgres",
   "port": 5432,
   "username": "postgres",
-  "password": "gobarber@123",
+  "password": "docker",
   "database": "transactions-postgres",
   "entities": ["./src/models/*.ts"],
   "migrations": ["./src/database/migrations/*.ts"],
@@ -11,3 +12,4 @@
     "migrationsDir": "./src/database/migrations"
   }
 }
+
