@@ -83,12 +83,12 @@ $ docker-compose up
     exemple:
     {
      "title":"Salary",
-	 "value":"2000",
+"value":"2000",
      "type":"income",  (income | outcome)
      "category":"Salary"
     }
 
-   *POST* - api/transactions/import  => insert transctions from a CSV file
+   *POST* - api/transactions/import  => insert transaction from a CSV file
 ```
 
 [CSV Example](https://github.com/rodolfomori/go-finances-warren-api/blob/master/src/__tests__/import_template.csv/)
