@@ -32,6 +32,7 @@ This project was developed with the following technologies:
 
 To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn
 v1.13][yarn] or higher installed on your computer. From your command line:
+  <br>
 
 ```bash
 # Clone this repository
@@ -46,6 +47,7 @@ $ yarn or npm install
 $ yarn dev:server or npm run dev:server
 
 ```
+  <br>
 
 If you want to run the database (postgres) from a local or remote container, you can run the command:
 
@@ -58,6 +60,7 @@ Choose your password, and change it in .env file.
 Change the DB address with a new one in .env.
 
 ```
+  <br>
 
 <p>If you want to run the project from a local or remote container, you can run the command:</p>
 
@@ -66,6 +69,7 @@ Change the DB address with a new one in .env.
 $ docker-compose up
 
 ```
+  <br>
 
 <p> Routes </p>
 
