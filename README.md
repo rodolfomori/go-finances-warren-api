@@ -91,7 +91,7 @@ $ docker-compose up
    *POST* - api/transactions/import  => insert transctions from a CSV file
 ```
 
-[CVS Example](https://github.com/rodolfomori/go-finances-warren-api/blob/master/src/__tests__/import_template.csv/)
+[CSV Example](https://github.com/rodolfomori/go-finances-warren-api/blob/master/src/__tests__/import_template.csv/)
 
 
 
