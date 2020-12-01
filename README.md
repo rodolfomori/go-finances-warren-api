@@ -83,7 +83,7 @@ $ docker-compose up
     exemple:
     {
      "title":"Salary",
- "value":"2000",
+     "value":"2000",
      "type":"income",  (income | outcome)
      "category":"Salary"
     }
