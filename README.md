@@ -30,7 +30,7 @@ This project was developed with the following technologies:
 ## :information_source: How To Use
 
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn
+To clone and run this application, you'll need [Git](https://git-scm.com), Docker, [Node.js v10.16][nodejs] or higher + [Yarn
 v1.13][yarn] or higher installed on your computer. From your command line:
   <br>
 
@@ -40,35 +40,10 @@ $ git clone https://github.com/rodolfomori/go-finances-warren-api
 
 # Go into the repository
 
-# Install dependencies
-$ yarn or npm install
-
-# Run the api
-$ yarn dev:server or npm run dev:server
-
-```
-  <br>
-
-If you want to run the database (postgres) from a local or remote container, you can run the command:
-
-```bash
-
-$  docker run --name ask-me-postgres -e POSTGRES_PASSWORD=choose a password -p 5432:5432 -d postgres
-
-Choose your password, and change it in .env file.
-
-Change the DB address with a new one in .env.
-
-```
-  <br>
-
-<p>If you want to run the project from a local or remote container, you can run the command:</p>
-
-```bash
-
+# Run docker
 $ docker-compose up
 
-```
+``` 
   <br>
 
 <p> Routes </p>
