@@ -18,6 +18,7 @@ Go Finances API :money_with_wings:
 This project was developed with the following technologies:
 
 - Node
+- Typescript
 - Express
 - TypeORM
 - Docker
